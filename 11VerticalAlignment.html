@@ -1,0 +1,89 @@
+<!-- Vertical Alignment is used to align the element vertically 
+there are multiple class in bootstrap
+1. .align-item-start this will start from top till the content of the element
+2. .align-item-end opposite to start 
+3. .align-item-center is used to align from the center. 
+this will also used on row not on coloumn  
+align item and align content have same property. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Alignment </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>  
+  <style>
+    .container{
+        border: 5px solid black;
+    }
+    #one{
+        background-color: pink;
+    }
+    #two{
+        background-color: lightblue;
+    }
+    #three{
+        background-color: green;
+    }
+    .row{
+        border: 3px solid red;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- align-item-start property -->
+        <div class="row align-items-lg-start">
+            <div class="col-3" id="one">
+                <h3>Col 1</h3>
+                <p>Lorem Ipsum is simply dummy</p>
+            </div>
+            <div class="col-3" id="two">
+                <h3>Col 2</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+            </div>
+            <div class="col-3" id="three">
+                <h3>Col 3</h3>
+                <p>Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy</p>
+            </div>
+        </div><br><br>
+
+
+          <!-- align-item-end -->
+        <div class="row align-items-lg-end">
+            <div class="col-3" id="one">
+                <h3>Col 1</h3>
+                <p>Lorem Ipsum is simply dummy</p>
+            </div>
+            <div class="col-3" id="two">
+                <h3>Col 2</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+            </div>
+            <div class="col-3" id="three">
+                <h3>Col 3</h3>
+                <p>Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy</p>
+            </div>
+        </div><br><br>
+
+        <!-- align-item-center -->
+        <div class="row align-items-lg-center">
+            <div class="col-3" id="one">
+                <h3>Col 1</h3>
+                <p>Lorem Ipsum is simply dummy</p>
+            </div>
+            <div class="col-3" id="two">
+                <h3>Col 2</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+            </div>
+            <div class="col-3" id="three">
+                <h3>Col 3</h3>
+                <p>Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
